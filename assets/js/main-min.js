@@ -1,0 +1,1 @@
+$(function(){$(window).scroll(function(){$(this).scrollTop()>48?($(".header").addClass("header--sticky"),$("body").addClass("is-scrolling")):($(".header").removeClass("header--sticky"),$("body").removeClass("is-scrolling"))})});

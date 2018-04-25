@@ -1,17 +1,151 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <title>Daniel Coleman - Portfolio</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <!-- Font Awesome-->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--Styles-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-
-<body>
-
+<body class="is-scrolling">
+    <div class="header-background">
+        <header class="header header--sticky">
+            <div class="container header__container">
+                <h1 id="site-title" class="header__title">Daniel Coleman</h1>
+                <a href="mailto:dacoleman@my.bellevue.edu" class="button header__button" id="contact-me">Contact Me</a>
+            </div>
+        </header>
+        <div class="hero row">
+            <h1 class="hero__headline med--col-5 lrg--col-7">
+                Hi! - I'm Daniel Coleman;<br>
+                <strong>Motion Multimedia artist based in Fayetteville, AR.</strong></h1>
+                <p class="hero__description med--col-5 lrg--col-6">
+                    I code some, and make pixels move about. I work as a motion multimedia artist, where I animate web banners, and video.
+                    I'm extremely passionate about all things outdoors; Hiking, Cycling, Kayaking, Camping...all of it.</p>
+                
+        </div>
+    </div>
+    
+    <section id="portfolio">
+        <div class="row portfolio">
+        <h2 class="title-flex">Hobbies</h2>
+            
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/Bike1-500pxBG.png');">
+                <a href="assets/images/Bike1-500px.png">
+                <h3 class="portfolio-piece__title">Cycling</h3>
+                <p class="portfolio-piece__tags">Mostly road bikes, but I also love to mountain bike</p>
+                </a>   
+            </div>
+           
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/Buffalo1-500pxBG.png');">
+                <a href="assets/images/Buffalo1-500px.png">
+                <h3 class="portfolio-piece__title">Kayaking</h3>
+                <p class="portfolio-piece__tags">I love to float all of the amazing local rivers</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/Cave1-500pxBG.png');">
+                <a href="assets/images/Cave1-500px.png">
+                <h3 class="portfolio-piece__title">Hiking</h3>
+                <p class="portfolio-piece__tags">Northwest Arkansas is known for its stellar views and hiking trails</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/Havasu1-500pxBG.png');">
+                <a href="assets/images/Havasu1-500px.png">
+                <h3 class="portfolio-piece__title">Exploring I</h3>
+                <p class="portfolio-piece__tags">Hasvasu Falls vacation - 2017</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/Oregon1-500pxBG.png');">
+                <a href="assets/images/Oregon1-500px.png">
+                <h3 class="portfolio-piece__title">Exploring II</h3>
+                <p class="portfolio-piece__tags">Oregon vacation - 2016</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/Pasitano1-500pxBG.png');">
+                <a href="assets/images/Pasitano1-500px.png">
+                <h3 class="portfolio-piece__title">Exploring III</h3>
+                <p class="portfolio-piece__tags">Italy and Pasitano vacation - 2015</p>
+                </a>
+            </div>
+           
+        <h2 class="title-flex">Recent Work</h2>
+            
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/RecWork_Biosite_ImageBG.png');">
+                <a href="https://github.com/Parzival-RP1/biosite">
+                <h3 class="portfolio-piece__title">Biosite - Web 200</h3>
+                <p class="portfolio-piece__tags">An early project, and one of my first sites</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/RecWork_Biosite_prototypeBG.png');">
+                <a href="https://github.com/Parzival-RP1/biosite">
+                <h3 class="portfolio-piece__title">Biosite Prototype - Web 200</h3>
+                <p class="portfolio-piece__tags">This was what I hoped my initial site would look like</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/RecWork_Web-230RepoBG.png');">
+                <a href="https://github.com/Parzival-RP1/web-230">
+                <h3 class="portfolio-piece__title">Repository - Web 230/231</h3>
+                <p class="portfolio-piece__tags">A repository on GitHub</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/RecWork_PortfolioBG.png');">
+                <a href="https://github.com/Parzival-RP1/web-330">
+                <h3 class="portfolio-piece__title">Personal Portfolio - Web 330</h3>
+                <p class="portfolio-piece__tags">My peronal portfolio site</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/RecWork_PersonalPort_SketchBG.png');">
+                <a href="https://github.com/Parzival-RP1/biosite/blob/master/images/RecWork_Biosite_prototype.png">
+                <h3 class="portfolio-piece__title">Personal Portfolio Prototype - Web 330</h3>
+                <p class="portfolio-piece__tags">This was what I hoped my portfolio site would look like</p>
+                </a>
+            </div>
+            <div class="portfolio-piece med--col-4" style="background-image: url('assets/images/RecWork_Web-330RepoBG.png');">
+                <a href="https://github.com/Parzival-RP1/biosite">
+                <h3 class="portfolio-piece__title">Repository Javascript II - Web 330</h3>
+                <p class="portfolio-piece__tags">A repository on GitHub</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="blog">
+        <div class="row">
+            <div class="blog blog__container">
+                <h2 class="title-flex">Recent Work</h2>
+                <h3 class="blog-title"><a class="blog__article-link" href="">Bellevue - Web 330 - Assignment 5.4.</a></h3>
+                <h3 class="blog-title"><a class="blog__article-link" href="">Bellevue - Web 330 - Exercise 7.2</a></h3>
+                <h3 class="blog-title"><a class="blog__article-link" href="">Bellevue - Web 330 - Exercise 8.2</a></h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2 class="contact__title white center">Get in Touch</h2>
+        <div class="contact__social social">
+            <a href="https://www.instagram.com/parzival_rp1/" class="social__button instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/Dekigokoro" class="social__button facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://github.com/Parzival-RP1" class="social__button github"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+        <a href="mailto:dacoleman@my.bellevue.edu" class="button contact__button" id="contact-button">Contact Me</a>
+    </section>
+    
+    <footer class="container">
+        <ul class="footer-list">
+            <li class="footer-list__item">© 2018 All Rights Reserved</li>
+            <li class="footer-list__item">Referenced from Adam Rasheed Tutorial</li>
+            <li class="footer-list__item">Development by Daniel Coleman</li>
+        </ul>
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
 </body>
-
-</html>>
+</html>
